@@ -1,0 +1,40 @@
+body{
+  background-color: #222020;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.email {
+  flex: 1 0 130px;
+  background-color: #7c7c7c;
+  border: 2px solid #ccc;
+  padding: 2px 15px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.password {
+  flex: 1 0 130px;
+  background-color: #7c7c7c;
+  border: 2px solid #ccc;
+  padding: 2px 15px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: rgb(173, 172, 172);
+}
+
+input[type=submit] {
+  flex: 1 0 130px;
+  background-color: #4f85f9;
+  color: white;
+  border: 2px solid #ccc;
+  padding: 2px 15px;
+  height: 58px;
+  border-radius: 5px;
+}
